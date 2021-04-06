@@ -1,0 +1,28 @@
+.interna_portfolio {
+  background: url('../img/bg-profissional.jpg') no-repeat center;
+  background-size: cover;
+  padding-top: 110px;
+}
+
+.quote_clientes {
+  padding: 60px 0;
+  max-width: 460px;
+  margin: 0 auto;
+}
+
+.quote_clientes p {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 18px;
+  line-height: 25px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.logo-empresas {
+  max-width: 350px;
+  margin: 0 auto;
+  margin-bottom: 45px;
+  border: 1px solid #f95777;
+  border-radius: 16px;
+}
