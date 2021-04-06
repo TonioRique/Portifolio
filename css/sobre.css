@@ -3,21 +3,56 @@
   background-size: cover;
 }
 
-.missao_sobre {
+.sobre-mim {
   padding-top: 60px;
 }
 
-.missao_sobre p {
+.sobre-mim p {
   font-size: 18px;
   line-height: 25px;
   margin-bottom: 1em;
   padding-right: 60px;
 }
 
-.missao_sobre ul li {
+.sobre-mim ul li {
   font-family: Georgia, 'Times New Roman', serif;
   font-size: 18px;
   line-height: 30px;
+}
+
+.qualidade {
+  padding: 60px 0;
+}
+
+.qualidade img {
+  margin: 0 auto;
+}
+
+.qualidade_lista {
+  overflow: auto; /* clear-fix */
+}
+
+.qualidade_lista li {
+  text-align: center;
+  padding: 0 40px;
+}
+
+.qualidade_lista li h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 20px;
+}
+
+.qualidade_lista li h3:after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 6px auto;
 }
 
 .foto-equipe {
